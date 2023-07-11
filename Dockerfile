@@ -1,7 +1,7 @@
 FROM   tomcat:8.0.20-jre8
-COPY   target/boot-docker-app.war   /usr/local/tomcat/webapps/boot-docker-app.war 
+COPY   target/Boot-docker-app.war   /usr/local/tomcat/webapps/Boot-docker-app.war 
 WORKDIR  /usr/app/
-ENTRYPOINT  ["java", "-war", "boot-docker-app.war"]
+ENTRYPOINT  ["java", "-war", "Boot-docker-app.war"]
 
 
 
